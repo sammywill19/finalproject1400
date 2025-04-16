@@ -29,7 +29,7 @@ public class Cookie {
       void DrawCookie(int Cookie_ID) {
             JFrame Donut_chocolate = new JFrame();
             JPanel panels[] = new JPanel[64];
-            Container window = Donut_chocolate.getContentPane();
+            Container window = Donut_chocolate.getContentPane(); 
             
             
             //define behaviors of JFrame and containers
