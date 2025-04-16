@@ -1,4 +1,16 @@
-package bakery;
+import bakery.Cake;
+import bakery.Muffin;
+import bakery.Cookie;
+import bakery.Donut;
+
+public class BakeryMain {
+    public static void main(String[] args) {
+        Cake cake = new Cake("Chocolate");
+        Muffin muffin = new Muffin("Large");
+        System.out.println("Cake flavor: " + cake.getFlavor());
+        System.out.println("Muffin size: " + muffin.getSize());
+    }
+}
 
 import java.awt.Color;
 import java.awt.Container;

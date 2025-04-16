@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Bakery_main",
             "request": "launch",
+            "mainClass": "Bakery_main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Bakery_main",
+            "request": "launch",
             "mainClass": "bakery.Bakery_main",
             "projectName": ""
         },
